@@ -9,8 +9,7 @@
 import React from 'react';
 import {Text} from 'react-native';
 import {View} from 'react-native';
-import Cumple from './src/components/cumple';
-import Animal from './src/TALLER1/animal';
+import Parcial from './src/PARCIAL1/parcial';
 const App = () => {
   return (
     
@@ -21,11 +20,7 @@ const App = () => {
         alignItems: 'center'
       }}>
 
-        <Animal/>
-        {/* <Text> Clase de app </Text>
-        <Cumple title="Mi Cumpleaños Feliz" name="Braulio"/>
-        <Cumple />
-        <Cumple title="Otro Cumpleaños Feliz" name ="Mario"/> */}
+        <Parcial/>
       </View>
     </>
   )
